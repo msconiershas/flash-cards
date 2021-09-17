@@ -1,2 +1,2 @@
 # flash-cards
-simple quiz game for 
+Simple Quiz Game with History Questions
