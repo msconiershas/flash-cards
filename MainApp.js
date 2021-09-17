@@ -4,39 +4,57 @@ function MainApp() {
 
   const questions = [
     {
-      questionText: 'Who is Prime Minister of India?',
+      questionText: 'Which Chinese dynasty established longstanding contact with the Japanese?',
       answerOptions: [
-        { answerText: 'Vijay Rupani', isCorrect: false },
-        { answerText: 'Manmohan singh', isCorrect: false },
-        { answerText: 'Narendra Modi', isCorrect: true },
-        { answerText: 'Deep Patel', isCorrect: false },
+        { answerText: 'Song', isCorrect: false },
+        { answerText: 'Han', isCorrect: false },
+        { answerText: 'Sui', isCorrect: true },
+        { answerText: 'Zhou', isCorrect: false },
       ],
     },
     {
-      questionText: 'Who is CEO of Tata?',
+      questionText: 'Who made Christianity legal in Ancient Rome?',
       answerOptions: [
-        { answerText: 'Jeff Bezos', isCorrect: false },
-        { answerText: 'Ratan Tata', isCorrect: true },
-        { answerText: 'Mukesh Ambani', isCorrect: false },
-        { answerText: 'Gautam Adani', isCorrect: false },
+        { answerText: 'Justinian', isCorrect: false },
+        { answerText: 'Cesar', isCorrect: false },
+        { answerText: 'Octavian', isCorrect: false },
+        { answerText: 'Constantine', isCorrect: true },
       ],
     },
     {
-      questionText: 'who is richest person in the world?',
+      questionText: 'What empire fell to the Babylonians around 608 BCE?',
       answerOptions: [
-        { answerText: 'Jeff Bezos', isCorrect: false },
-        { answerText: 'Elon Musk', isCorrect: true },
-        { answerText: 'Mukesh Ambani', isCorrect: false },
-        { answerText: 'Warren Buffett', isCorrect: false },
+        { answerText: 'Persians', isCorrect: false },
+        { answerText: 'Scythians', isCorrect: false },
+        { answerText: 'Assyrians', isCorrect: true },
+        { answerText: 'Romans', isCorrect: false },
       ],
     },
     {
-      questionText: 'how many countries in the world?',
+      questionText: 'What country held onto most of Western Roman records through the Dark Ages?',
       answerOptions: [
-        { answerText: '120', isCorrect: false },
-        { answerText: '183', isCorrect: false },
-        { answerText: '170', isCorrect: false },
-        { answerText: '195', isCorrect: true },
+        { answerText: 'Ireland', isCorrect: true },
+        { answerText: 'England', isCorrect: false },
+        { answerText: 'France', isCorrect: false },
+        { answerText: 'Denmark', isCorrect: false },
+      ],
+    },
+    {
+      questionText: 'What shape did ancient Chinese coins have?',
+      answerOptions: [
+        { answerText: 'square', isCorrect: false },
+        { answerText: 'knife', isCorrect: true },
+        { answerText: 'hexagon', isCorrect: false },
+        { answerText: 'cube', isCorrect: false },
+      ],
+    },
+     {
+      questionText: 'Who were the Jewish people fighting in the war that created the 8 candle Hanukkah?',
+      answerOptions: [
+        { answerText: 'Romans', isCorrect: false },
+        { answerText: 'Greeks', isCorrect: true },
+        { answerText: 'Persians', isCorrect: false },
+        { answerText: 'Arabs', isCorrect: false },
       ],
     },
   ]
@@ -60,7 +78,7 @@ function MainApp() {
 
   return (
     <>
-      <h1 className='header'>Quiz</h1>
+      <h1 className='header'>History Quiz</h1>
       <div className="app">
         {showScore ? (
           <div className='score-section'>
